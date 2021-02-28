@@ -183,13 +183,6 @@
             <signal handler="about_menu_cb" name="activate"/>
           </object>
         </child>
-        <child>
-          <object class="GtkAction" id="doc_action">
-            <property name="name">doc_action</property>
-            <property name="label" translatable="yes">_Documentation...</property>
-            <signal handler="doc_menu_cb" name="activate"/>
-          </object>
-        </child>
       </object>
     </child>
     <ui>

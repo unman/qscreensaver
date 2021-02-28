@@ -819,7 +819,7 @@ about_menu_cb (GtkAction *menu_action, gpointer user_data)
   char *s, *s2;
   char copy[1024];
   char year[5];
-  char *desc = _("For updates, check https://www.jwz.org/xscreensaver/");
+  char *desc = _("For updates, run qubes-dom0-update ");
 
   s = strchr (vers, ',');
   *s = 0;
